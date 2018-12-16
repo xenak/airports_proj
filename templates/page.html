@@ -1,0 +1,219 @@
+
+<html>
+<head>
+<title>Airport Weather Condition</title>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<style>
+    body {
+        background-color: #F9F9F9;
+        font-family: 'Montserrat';font-size: 22px;
+    }
+    h1 {
+        text-align: center;
+        color = #606060;
+    }
+    h2 {
+        text-align: center;
+        color = #606060;
+    }
+    table { 
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+    table, th, td {
+        border-bottom: 1px solid #F5F5F5;
+        border-top: 1px solid #F5F5F5;
+        border-left: 0px solid white;
+        border-right: 0px solid white;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 5px;
+        text-align: center;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 95%;
+    }
+    table tbody tr:hover {
+        background-color: #F9F9F9;
+    }
+    .wide {
+        width: 90%; 
+    }
+    table tr:nth-child(-n+{{bad}}){
+        background-color: #FFC4E8;
+    }
+    table th{
+        background-color: #606060;
+        color: white;
+    }
+
+</style>
+
+    <h1> Airport Weather Condition </h1>
+
+    <h2> <span style="color: #FF89D2"> 
+        {{bad}} out of 29  </span> airports are in danger. Be careful! 
+    </h2>
+
+
+</head>
+<body>
+    <table border="1" class="dataframe wide">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Airport</th>
+      <th>Wind (MPH)</th>
+      <th>Temperature (C)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CXEG</td>
+      <td>0</td>
+      <td>-9.3</td>
+    </tr>
+    <tr>
+      <td>ZMUB</td>
+      <td>2</td>
+      <td>-25.0</td>
+    </tr>
+    <tr>
+      <td>CXMG</td>
+      <td>3</td>
+      <td>-18.5</td>
+    </tr>
+    <tr>
+      <td>CYMO</td>
+      <td>31</td>
+      <td>4.0</td>
+    </tr>
+    <tr>
+      <td>K1ON</td>
+      <td>17</td>
+      <td>0.4</td>
+    </tr>
+    <tr>
+      <td>KMJX</td>
+      <td>26</td>
+      <td>7.2</td>
+    </tr>
+    <tr>
+      <td>KBLF</td>
+      <td>26</td>
+      <td>5.6</td>
+    </tr>
+    <tr>
+      <td>KIJD</td>
+      <td>20</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>KHWY</td>
+      <td>18</td>
+      <td>6.8</td>
+    </tr>
+    <tr>
+      <td>KXNA</td>
+      <td>0</td>
+      <td>7.8</td>
+    </tr>
+    <tr>
+      <td>LKLN</td>
+      <td>3</td>
+      <td>-2.0</td>
+    </tr>
+    <tr>
+      <td>KMWA</td>
+      <td>9</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>KHBG</td>
+      <td>5</td>
+      <td>10.6</td>
+    </tr>
+    <tr>
+      <td>KGRR</td>
+      <td>6</td>
+      <td>-0.6</td>
+    </tr>
+    <tr>
+      <td>OIBP</td>
+      <td>0</td>
+      <td>18.0</td>
+    </tr>
+    <tr>
+      <td>KGCC</td>
+      <td>8</td>
+      <td>3.3</td>
+    </tr>
+    <tr>
+      <td>ESGJ</td>
+      <td>6</td>
+      <td>-1.0</td>
+    </tr>
+    <tr>
+      <td>KLWT</td>
+      <td>0</td>
+      <td>3.9</td>
+    </tr>
+    <tr>
+      <td>KFWN</td>
+      <td>10</td>
+      <td>2.2</td>
+    </tr>
+    <tr>
+      <td>MMOX</td>
+      <td>6</td>
+      <td>14.0</td>
+    </tr>
+    <tr>
+      <td>KQEV</td>
+      <td>1</td>
+      <td>-1.0</td>
+    </tr>
+    <tr>
+      <td>EKOD</td>
+      <td>13</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>K19S</td>
+      <td>10</td>
+      <td>8.7</td>
+    </tr>
+    <tr>
+      <td>KBLV</td>
+      <td>3</td>
+      <td>9.4</td>
+    </tr>
+    <tr>
+      <td>MNRS</td>
+      <td>12</td>
+      <td>28.0</td>
+    </tr>
+    <tr>
+      <td>KW99</td>
+      <td>0</td>
+      <td>5.5</td>
+    </tr>
+    <tr>
+      <td>LFYR</td>
+      <td>1</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <td>KT70</td>
+      <td>0</td>
+      <td>13.3</td>
+    </tr>
+    <tr>
+      <td>KAFK</td>
+      <td>7</td>
+      <td>5.6</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
